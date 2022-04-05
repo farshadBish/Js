@@ -55,8 +55,12 @@ here the answer is false. */
 /* let name1 = "john"
    let name2 = "John"
    console.log(name1===name2);
-   if(name1 || name2){
-    console.log(true);
+   if(name2.toLowerCase()==name1){
+       console.log("true")
+   }else{
+       console.log("false")
+   };
+
 }
     */
 
